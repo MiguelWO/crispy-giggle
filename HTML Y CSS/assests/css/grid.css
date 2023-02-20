@@ -1,0 +1,17 @@
+section{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 100px 100px;
+  gap:2%
+}
+section div{
+  background-color: magenta;
+}
+
+.gridin{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+.gridin div{
+  background: gray;
+}

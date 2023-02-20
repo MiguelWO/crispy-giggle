@@ -1,0 +1,17 @@
+body {
+  background-color: aquamarine;
+}
+
+img {
+  animation: girar infinite 15s linear;
+  width: 400px;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+  
+}
